@@ -1,0 +1,5 @@
+Changelog for msplColor.
+
+1.0.0-pl
+==============
+- Initial version
