@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    'xpdo_meta_map' => array(
+    'map' => array(
         'msProductData' => require_once 'msproductdata.inc.php',
     ),
     'manager' => array(
