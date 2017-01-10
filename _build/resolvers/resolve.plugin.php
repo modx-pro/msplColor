@@ -22,7 +22,7 @@ if ($transport->xpdo) {
     $manager = $modx->getManager();
     switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         case xPDOTransport::ACTION_INSTALL:
-            $miniShop2->addPlugin('msplColor', '[[+core_path]]components/msplcolor/index.php');
+            $miniShop2->addPlugin('msplColor', '{core_path}components/msplcolor/index.php');
             $miniShop2->loadMap();
 
             $manager->alterField('msProductData', 'color');
